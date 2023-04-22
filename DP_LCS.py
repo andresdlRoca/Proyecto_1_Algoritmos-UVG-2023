@@ -20,7 +20,6 @@ def LCSubStr(X, Y, m, n):
     return result
  
  
-# Driver Code
 X = 'Computer Science'
 Y = 'Comp-Sci'
  
