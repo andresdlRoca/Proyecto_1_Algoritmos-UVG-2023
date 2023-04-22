@@ -17,3 +17,4 @@ def lcs_divide_and_conquer(X, Y):
 
 result = lcs_divide_and_conquer('Computer Science', 'Comp-Sci')
 print(result)
+print('de longitud:', len(result))
