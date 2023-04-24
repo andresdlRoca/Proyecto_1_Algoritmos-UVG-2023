@@ -20,11 +20,11 @@ def LCSubStr(X, Y, m, n):
     return result
  
  
-X = 'Computer Science'
-Y = 'Comp-Sci'
+# X = 'Computer Science'
+# Y = 'Comp-Sci'
  
-m = len(X)
-n = len(Y)
+# m = len(X)
+# n = len(Y)
  
-print('La longitud de la subcadena mas larga es:',
-      LCSubStr(X, Y, m, n))
+# print('La longitud de la subcadena mas larga es:',
+#       LCSubStr(X, Y, m, n))

@@ -15,6 +15,6 @@ def lcs_divide_and_conquer(X, Y):
         # Sino, el LCS muestra dos posible sub solucion y presenta la mas larga
         return max(lcs_divide_and_conquer(X[:midX], Y), lcs_divide_and_conquer(X, Y[:midY]), key=len)
 
-result = lcs_divide_and_conquer('Computer Science', 'Comp-Sci')
-print(result)
-print('de longitud:', len(result))
+# result = lcs_divide_and_conquer('Computer Science', 'Comp-Sci')
+# print(result)
+# print('de longitud:', len(result))
