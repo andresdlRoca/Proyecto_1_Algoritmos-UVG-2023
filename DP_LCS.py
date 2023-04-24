@@ -18,13 +18,3 @@ def LCSubStr(X, Y, m, n):
             else:
                 LCSuff[i][j] = 0
     return result
- 
- 
-# X = 'Computer Science'
-# Y = 'Comp-Sci'
- 
-# m = len(X)
-# n = len(Y)
- 
-# print('La longitud de la subcadena mas larga es:',
-#       LCSubStr(X, Y, m, n))

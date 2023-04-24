@@ -7,8 +7,6 @@ import matplotlib.pyplot as plt
 input_strings = {
     'Computer Science': 'Comp-Sci',
     'GeeksforGeeks': 'GeeksQuiz',
-    'zxabcdezy': 'yzabcdezx',
-    'Programming': 'Program',
     'OldSite:GeeksforGeeks.org': 'NewSite:GeeksQuiz.com'
 }
 
